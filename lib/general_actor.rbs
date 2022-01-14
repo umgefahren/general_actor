@@ -1,0 +1,11 @@
+module GeneralActor
+  class Error < StandardError
+  end
+
+  class GeneralActor[T]
+    def initialize: (obj: T) -> void
+    def kill: () -> void
+    def value: () -> T
+    def value=:(T) -> void
+  end
+end
