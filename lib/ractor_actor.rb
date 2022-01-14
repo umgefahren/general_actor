@@ -67,5 +67,11 @@ module ReactorActorM
       end
       val
     end
+
+    def kill
+      m = RactorMessage.new :kill
+      @ractor.send m
+      _ = m.backchannel.take
+    end
   end
 end

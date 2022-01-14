@@ -1,0 +1,9 @@
+module ReactorActorM
+  class RactorActor[T]
+    def initialize: (data: T) -> void
+    def kill: () -> void
+    def value: () -> T
+    def value=:(T) -> void
+    def get_value_with_timeout: (timeout: Timeout) -> T
+  end
+end
