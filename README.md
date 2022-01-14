@@ -1,3 +1,6 @@
+[![Gem](https://img.shields.io/gem/v/general_actor)](https://rubygems.org/gems/general_actor)
+[![Ruby](https://github.com/umgefahren/general_actor/actions/workflows/main.yml/badge.svg)](https://github.com/umgefahren/general_actor/actions/workflows/main.yml)
+
 # GeneralActor
 
 An easy abstraction for an actor, written for Ruby 3.
